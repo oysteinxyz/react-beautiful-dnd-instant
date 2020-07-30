@@ -6050,7 +6050,7 @@ function useKeyboardSensor(api) {
 var idle$2 = {
   type: 'IDLE'
 };
-var timeForLongPress = 120;
+var timeForLongPress = 0;
 var forcePressThreshold = 0.15;
 
 function getWindowBindings(_ref) {
