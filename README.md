@@ -1,10 +1,8 @@
 ### Overview
 
-Sets the `timeForLongPress` to 0.
+The problem: Instant dragging is not possible on touch devices.
 
-Enjoy instant dragging on touch devices.
-
-**Notice:** Disables scrolling on the drag handle and may cause other issues.
+This package fixes that by setting the `timeForLongPress` to 0.
 
 This is a temporary fix until we get an official solution.
 
@@ -15,3 +13,9 @@ This is a temporary fix until we get an official solution.
 2. `npm i oysteinxyz/react-beautiful-dnd-instant`
 
 All your imports should still work.
+
+### Changelog:
+
+16 May 2021: Updated to v13.1.0
+
+30 July 2020: Released with v13.0.0
